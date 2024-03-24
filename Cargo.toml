@@ -1,0 +1,18 @@
+[package]
+name = "wallpaper-engine-handler"
+version = "0.1.0"
+edition = "2021"
+build = "src/build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+device_query = "2.0.0"
+tray-icon = "0.12.0"
+uiautomation = "0.8.0"
+windows = "0.54.0"
+winit = "0.29.15"
+winreg = "0.52.0"
+
+[build-dependencies]
+winres = "0.1.12"
